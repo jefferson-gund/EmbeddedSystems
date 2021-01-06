@@ -1,0 +1,150 @@
+MPLINK 4.35, Linker
+Linker Map File - Created Wed Feb 26 02:05:33 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x00083a
+      .config_2007_MAIN.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000420      
+                            0x002007    0x002007      
+            1055 out of 8453 program addresses used, program memory utilization is 12%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 COBERTOR   0x000210    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                 COLORIDA   0x0001eb    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+         CONFIRMA_CANCELA   0x00035c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+             CONVERSAO_AD   0x0003e2    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                    DELAY   0x0003d9    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                  DELAY_2   0x0003cd    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                 DELAY_MS   0x0003ce    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                 DELAY_US   0x0003d0    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                 DELICADA   0x000235    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                DET_TECLA   0x0002e9    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                      DIV   0x0000b6    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+             DIVIDE_16x16   0x0000a5    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+                 EMPRESTA   0x0000cc    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+                  ESCREVE   0x000070    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\LCD_4BITS_JG.INC
+               ESCREVE_ni   0x000083    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\LCD_4BITS_JG.INC
+                   ESPERA   0x0002e3    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   ETAPA1   0x000057    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA2   0x00005b    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA3   0x00005f    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA4   0x000063    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA5   0x000067    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA6   0x00006d    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPAS   0x000369    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               INCREMENTA   0x000324    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+    INICIALIZACAO_DISPLAY   0x00002d    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   INICIO   0x00000c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                  LEITURA   0x0002cc    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+           LEITURA_EEPROM   0x0003be    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                LIMPA_RAM   0x000022    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   LINHA0   0x0002ef    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA1   0x000303    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA2   0x00030a    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA3   0x00033a    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                     MAIN   0x000056    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+            MOSTRA_ETAPA4   0x0001c2    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+            MOSTRA_ETAPA5   0x00025b    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+             MOSTRA_OPCAO   0x00019b    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+               MUITO_SUJA   0x0002a7    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+               MULTIPLICA   0x00009c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+               MULTI_10x8   0x00008c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+               NIVEL_AGUA   0x0000f7    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+          NIVEL_AMACIANTE   0x000120    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+              NIVEL_SABAO   0x0000d0    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                  PAUSAR_   0x000351    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               ROTACIONAR   0x0002d7    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                  SAI_INT   0x000007    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+              SALVA_OPCAO   0x0003a0    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                    START   0x0002ce    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+            SUBTRAI_16x16   0x0000c2    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+                     SUJA   0x000283    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+          TESTA_DIVIDENDO   0x0000ab    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+             TESTA_ETAPA5   0x00038f    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+             TESTA_MULT_1   0x000090    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+             TESTA_MULT_2   0x000098    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+             TESTE_LINHA0   0x00037e    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               TEST_TECLA   0x0002df    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               TIPO_ROUPA   0x000149    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+             TIPO_SUJEIRA   0x000172    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  SAI_INT   0x000007    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   INICIO   0x00000c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                LIMPA_RAM   0x000022    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+    INICIALIZACAO_DISPLAY   0x00002d    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                     MAIN   0x000056    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA1   0x000057    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA2   0x00005b    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA3   0x00005f    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA4   0x000063    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA5   0x000067    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                   ETAPA6   0x00006d    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\main.ASM
+                  ESCREVE   0x000070    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\LCD_4BITS_JG.INC
+               ESCREVE_ni   0x000083    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\LCD_4BITS_JG.INC
+               MULTI_10x8   0x00008c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+             TESTA_MULT_1   0x000090    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+             TESTA_MULT_2   0x000098    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+               MULTIPLICA   0x00009c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\MULTI_10X8.INC
+             DIVIDE_16x16   0x0000a5    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+          TESTA_DIVIDENDO   0x0000ab    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+                      DIV   0x0000b6    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+            SUBTRAI_16x16   0x0000c2    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+                 EMPRESTA   0x0000cc    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\div_16X16.INC
+              NIVEL_SABAO   0x0000d0    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+               NIVEL_AGUA   0x0000f7    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+          NIVEL_AMACIANTE   0x000120    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+               TIPO_ROUPA   0x000149    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+             TIPO_SUJEIRA   0x000172    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+             MOSTRA_OPCAO   0x00019b    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+            MOSTRA_ETAPA4   0x0001c2    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                 COLORIDA   0x0001eb    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                 COBERTOR   0x000210    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                 DELICADA   0x000235    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+            MOSTRA_ETAPA5   0x00025b    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                     SUJA   0x000283    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+               MUITO_SUJA   0x0002a7    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\INICIALIZACAO.INC
+                  LEITURA   0x0002cc    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                    START   0x0002ce    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               ROTACIONAR   0x0002d7    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               TEST_TECLA   0x0002df    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   ESPERA   0x0002e3    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                DET_TECLA   0x0002e9    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA0   0x0002ef    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA1   0x000303    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA2   0x00030a    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+               INCREMENTA   0x000324    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   LINHA3   0x00033a    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                  PAUSAR_   0x000351    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+         CONFIRMA_CANCELA   0x00035c    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                   ETAPAS   0x000369    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+             TESTE_LINHA0   0x00037e    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+             TESTA_ETAPA5   0x00038f    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+              SALVA_OPCAO   0x0003a0    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+           LEITURA_EEPROM   0x0003be    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TECLADO_MATRICIAL.INC
+                  DELAY_2   0x0003cd    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                 DELAY_MS   0x0003ce    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                 DELAY_US   0x0003d0    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+                    DELAY   0x0003d9    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+             CONVERSAO_AD   0x0003e2    program     static D:\UTFPR - Engenharia Eletrônica\7º Semestre\Microcontroladores\PROJETO - APS\PROJETO_ASSEMBLY_JEFFERSONGUND\TRATA_DADOS_CONVERSAO.INC
+
+
